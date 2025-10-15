@@ -9,22 +9,17 @@ A simple Node.js script to convert AsciiDoc files (.adoc) into HTML.
 
 ## Installation
 
-Clone the repository:
+1. Download `adoc-to-html.js` from this repository.  
+2. Place it in the folder with your `.adoc` file.  
+3. Open a terminal in that folder and run:
 
 ```bash
-git clone https://github.com/<your-username>/asciidoc-to-html-convert.git
-cd asciidoc-to-html-convert
-```
-
-Install dependencies:
-
-```bash
-npm install
+npm install asciidoctor
 ```
 
 ## Usage
 
-1. Place the script `adoc-to-html.js` in the folder with your `.adoc` file.  
+1. Open a terminal in the folder with your `.adoc` file and the script.  
 2. Run the script:
 
 ```bash
